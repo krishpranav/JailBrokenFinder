@@ -27,4 +27,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface JailBreakFinder : NSObject
+
+@end
+
 NS_ASSUME_NONNULL_END
