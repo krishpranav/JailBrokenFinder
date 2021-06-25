@@ -10,3 +10,6 @@
 #import "JailBroken.h"
 #import <sys/utsname.h>
 
+@interface ViewController : UIViewController
+
+@end
