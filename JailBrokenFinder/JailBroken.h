@@ -27,9 +27,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JailBreakFinder : NSObject
+@interface JB : NSObject
 BOOL isRunningOnMac();
-BOOL isJailBroken();
+BOOL isJb();
 BOOL isInjectedWithDynamicLibrary();
 BOOL isSecurityCheckPassed();
 BOOL isDebugged();
