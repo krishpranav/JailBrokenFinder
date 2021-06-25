@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate()
+@interface AppDelegate ()
 
 @end
 
@@ -21,16 +21,17 @@
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
+    
 }
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-
+    
 }
 
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-
+    
 }
 
 
@@ -40,7 +41,7 @@
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-
+    
 }
 
 
