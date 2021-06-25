@@ -8,6 +8,14 @@
 
 #import "ViewController.h"
 
-@interface ViewController()
+@interface ViewController ()
 @property NSThread* evtThread;
+@property (weak, nonatomic) IBOutlet UILabel *securityCheckStatus;
+@property (weak, nonatomic) IBOutlet UILabel *appStoreStatus;
+@property (weak, nonatomic) IBOutlet UILabel *debugStatus;
+@property (weak, nonatomic) IBOutlet UILabel *dylibStatus;
+@property (weak, nonatomic) IBOutlet UILabel *coreJailBreakStatus;
+@property (weak, nonatomic) IBOutlet UILabel *systemLabel;
+@property (weak, nonatomic) IBOutlet UILabel *macLabel;
+@end
 
