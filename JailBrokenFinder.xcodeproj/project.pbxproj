@@ -15,6 +15,7 @@
 		9FF8A0B82685D44600848996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8A0B72685D44600848996 /* main.m */; };
 		9FF8A0C22685D44600848996 /* JailBrokenFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8A0C12685D44600848996 /* JailBrokenFinderTests.m */; };
 		9FF8A0CD2685D44600848996 /* JailBrokenFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8A0CC2685D44600848996 /* JailBrokenFinderUITests.m */; };
+		9FF8A0DC2685D67000848996 /* JailBroken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8A0DB2685D67000848996 /* JailBroken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9FF8A0C82685D44600848996 /* JailBrokenFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBrokenFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF8A0CC2685D44600848996 /* JailBrokenFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBrokenFinderUITests.m; sourceTree = "<group>"; };
 		9FF8A0CE2685D44600848996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF8A0DA2685D66600848996 /* JailBroken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailBroken.h; sourceTree = "<group>"; };
+		9FF8A0DB2685D67000848996 /* JailBroken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBroken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9FF8A0B32685D44600848996 /* LaunchScreen.storyboard */,
 				9FF8A0B62685D44600848996 /* Info.plist */,
 				9FF8A0B72685D44600848996 /* main.m */,
+				9FF8A0DA2685D66600848996 /* JailBroken.h */,
+				9FF8A0DB2685D67000848996 /* JailBroken.m */,
 			);
 			path = JailBrokenFinder;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF8A0DC2685D67000848996 /* JailBroken.m in Sources */,
 				9FF8A0AD2685D44300848996 /* ViewController.m in Sources */,
 				9FF8A0B82685D44600848996 /* main.m in Sources */,
 				9FF8A0AA2685D44300848996 /* AppDelegate.m in Sources */,
